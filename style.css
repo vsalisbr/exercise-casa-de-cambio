@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(40, 44, 51);
+  color: white;
+  font-family: 'Fira Code';
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 79px;
+}
+
+.green {
+  color: #95EBA8;
+}
+
+#sub-header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#form {
+  display: flex;
+}
+
+#coin {
+  width: 171px;
+  height: 48px;
+  margin-right: 14px;
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 10px;
+  color: white;
+}
+
+#btn-search {
+  width: 171px;
+  height: 48px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #373737;
+  background: #96EB95;
+  border: 1px solid #96EB95;
+  border-radius: 10px;
+}
+
+#corpo-do-site {
+  width: 900px;
+  margin: 30px auto;
+}
+
+main {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#container-boxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.coin-box {
+  width: 150px;
+  height: 44px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#container-boxes-header {
+  text-align: center;
+}
